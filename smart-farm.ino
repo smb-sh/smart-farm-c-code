@@ -103,7 +103,7 @@ void loop()
 
   //moisturePercentage = ( 100.00 - ( (analogRead(moisturePin) / 1023.00) * 100.00 ) );
   Serial.println("Reading data");
-  ////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////
   
   float uv = 0.00;
   float soil_moisture = 0.00;
