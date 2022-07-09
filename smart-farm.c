@@ -24,14 +24,14 @@ int counter = 0;
 int sampler = 0;
 
 
-const char *ssid =  "S’s iPhone";     // Enter your WiFi Name
-const char *pass =  "90909090"; // Enter your WiFi Password
+const char *ssid =  "ssid";     // Enter your WiFi Name
+const char *pass =  "password"; // Enter your WiFi Password
 WiFiClient client;
 
 #define MQTT_SERV "io.adafruit.com"
 #define MQTT_PORT 1883
-#define MQTT_NAME "smart_farm" // Your Adafruit IO Username
-#define MQTT_PASS "aio_UQpt79GwGK4SRWwTBZvl7hzR2fS5" // Adafruit IO AIO key
+#define MQTT_NAME "test" // Your Adafruit IO Username
+#define MQTT_PASS "aio_asdffdsdfsdfsfdsadfsadS5" // Adafruit IO AIO key
 
 
 int status = WL_IDLE_STATUS;
